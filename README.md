@@ -66,3 +66,21 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+This section lists commands to create the docker image and publish in Google cloud repository
+### git clone  to get the product
+
+### cd skoolui
+### npm run build
+
+Command to create the image
+###  docker build -t gcr.io/$GOOGLE_CLOUD_PROJECT/skoolui-docker .
+
+Command to push the image to gcr
+###docker push gcr.io/$GOOGLE_CLOUD_PROJECT/skoolui-docker:latest
+
+To list images created
+###docker images
+
+https://hackernoon.com/deploy-react-application-using-docker-and-google-cloud-platform-4bc03f9ee1f
