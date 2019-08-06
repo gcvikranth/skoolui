@@ -4,13 +4,15 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import CourseComponent from './CourseComponent';
 import StudentComponent from './StudentComponent';
 import ListStudentsComponent from './ListStudentsComponent';
-
+import SideBar from '../sidebar'
 class SchoolApp extends Component {
     render() {
         return (
+            
             <Router>
+
                 <>
-                    <h1>School Application</h1>
+                    <h1>After School Activity Application</h1>
                     <Switch>
                         <Route path="/" exact component={ListCoursesComponent} />
                         <Route path="/courses" exact component={ListCoursesComponent} />

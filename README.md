@@ -72,6 +72,7 @@ This section lists commands to create the docker image and publish in Google clo
 ### git clone  to get the product
 
 ### cd skoolui
+### npm install
 ### npm run build
 
 Command to create the image
